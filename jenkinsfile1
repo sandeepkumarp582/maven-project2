@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hello Dev-Stage'
                 build quietPeriod: 3, job: 'Job1'
-                git credentialsId: 'c2b23aa5-8fe6-4445-b979-9d13c1481ed8', url: 'https://github.com/polarapu/maven-project1.git'
+                git credentialsId: '745ed459-3ce7-4350-9d3d-0daffac9a549', url: 'https://github.com/sandeepkumarp582/maven-project2.git'
             }
         }
         stage('Test-Stage') {
